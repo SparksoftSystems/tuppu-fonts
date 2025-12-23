@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Font Downloads</title>
     <style>
+        /* Page layout */
         body {
             font-family: system-ui, -apple-system, sans-serif;
             max-width: 800px;
@@ -20,6 +21,7 @@
             border-radius: 8px;
         }
 
+        /* Download button */
         .download-btn {
             background: #0969da;
             color: white;
@@ -28,6 +30,58 @@
             border-radius: 6px;
             display: inline-block;
         }
+
+        /* Webfont declarations */
+        @font-face {
+            font-family: 'Idiqlat ExtraLight';
+            src: url('tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-ExtraLight.woff2') format('woff2'),
+                 url('tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-ExtraLight.woff') format('woff');
+            font-weight: 200;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Idiqlat Light';
+            src: url('tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-Light.woff2') format('woff2'),
+                 url('tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Idiqlat Regular';
+            src: url('tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-Regular.woff2') format('woff2'),
+                 url('tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Ramsina Regular';
+            src: url('tuppu-fonts/fonts/Ramsina Font/web/Ramsina-Regular.woff2') format('woff2'),
+                 url('tuppu-fonts/fonts/Ramsina Font/web/Ramsina-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* Paragraph defaults in font-item */
+        .font-item p {
+            margin: 0 0 1rem 0;
+            /* Syriac is right-to-left; ensure correct direction */
+            direction: rtl;
+            unicode-bidi: isolate;
+            font-size: 1.05rem;
+        }
+
+        /* Per-font paragraph styles */
+        .idiqlat-extralight p { font-family: 'Idiqlat ExtraLight', system-ui, -apple-system, sans-serif; font-weight: 200; }
+        .idiqlat-light p      { font-family: 'Idiqlat Light', system-ui, -apple-system, sans-serif; font-weight: 300; }
+        .idiqlat-regular p    { font-family: 'Idiqlat Regular', system-ui, -apple-system, sans-serif; font-weight: 400; }
+        .ramsina-regular p    { font-family: 'Ramsina Regular', serif; font-weight: 400; }
     </style>
 </head>
 
@@ -35,7 +89,7 @@
     <h1>Modern Assyrian Font Collection</h1>
 
     </div>
-    <div class="font-item">
+    <div class="font-item ramsina-regular">
         <h2>Ramsina-Regular Font</h2>
         <p>ܗ̇ܘ ܕܠܵܐ ܚܲܪܸܪܵܗ̇ ܓܵܢܹܗ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܓܵܢܹܗ ܠܹܐ ܡܵܨܹܐ ܗܵܘܹܐ ܚܹܐܪܵܐ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܐ݇ܚܹܪ̈݇ܢܹܐ</p>
         <a href="tuppu-fonts/fonts/Ramsina Font/Ramsina-Regular.ttf" download>Download Ramsina-Regular Font (TTF)</a>
@@ -44,7 +98,7 @@
         <br />
         <a href="tuppu-fonts/fonts/Ramsina Font/web/Ramsina-Regular.woff2" download>Download Ramsina-Regular Web Font (WOFF2)</a>
     </div>
-    <div class="font-item">
+    <div class="font-item idiqlat-extralight">
         <h2>Idiqlat-ExtraLight Font</h2>
         <p>ܗ̇ܘ ܕܠܵܐ ܚܲܪܸܪܵܗ̇ ܓܵܢܹܗ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܓܵܢܹܗ ܠܹܐ ܡܵܨܹܐ ܗܵܘܹܐ ܚܹܐܪܵܐ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܐ݇ܚܹܪ̈݇ܢܹܐ</p>
         <a href="tuppu-fonts/fonts/Idiqlat Font/Idiqlat-ExtraLight.ttf" download>Download Idiqlat-ExtraLight Font (TTF)</a>
@@ -53,7 +107,7 @@
         <br />
         <a href="tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-ExtraLight.woff2" download>Download Idiqlat-ExtraLight Web Font (WOFF2)</a>
     </div>
-        <div class="font-item">
+        <div class="font-item idiqlat-light">
         <h2>Idiqlat-Light Font</h2>
         <p>ܗ̇ܘ ܕܠܵܐ ܚܲܪܸܪܵܗ̇ ܓܵܢܹܗ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܓܵܢܹܗ ܠܹܐ ܡܵܨܹܐ ܗܵܘܹܐ ܚܹܐܪܵܐ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܐ݇ܚܹܪ̈݇ܢܹܐ</p>
         <a href="tuppu-fonts/fonts/Idiqlat Font/Idiqlat-Light.ttf" download>Download Idiqlat-Light Font (TTF)</a>
@@ -62,7 +116,7 @@
         <br />
         <a href="tuppu-fonts/fonts/Idiqlat Font/web/Idiqlat-Light.woff2" download>Download Idiqlat-Light Web Font (WOFF2)</a>
     </div>
-    <div class="font-item">
+    <div class="font-item idiqlat-regular">
         <h2>Idiqlat-Regular Font</h2>
         <p>ܗ̇ܘ ܕܠܵܐ ܚܲܪܸܪܵܗ̇ ܓܵܢܹܗ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܓܵܢܹܗ ܠܹܐ ܡܵܨܹܐ ܗܵܘܹܐ ܚܹܐܪܵܐ ܡ݂ܢ ܛܲܡܐܘܼܬܵܐ ܕܐ݇ܚܹܪ̈݇ܢܹܐ</p>
         <a href="tuppu-fonts/fonts/Idiqlat Font/Idiqlat-Regular.ttf" download>Download Idiqlat-Regular Font (TTF)</a>
