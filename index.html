@@ -96,6 +96,18 @@
         .intro p { margin: 0 0 0.5rem 0; }
         .intro p:last-child { margin-bottom: 0; }
 
+        /* Site tagline (under H1) */
+        .site-tagline {
+            text-align: right;
+            font-size: 0.9rem;
+            color: #6b7280; /* muted text */
+            margin-top: 6px;
+            margin-bottom: 12px;
+            white-space: normal;
+        }
+        .site-tagline a { color: #0969da; text-decoration: none; }
+        .site-tagline a:hover { text-decoration: underline; }
+
         /* Footer styling */
         footer.site-footer {
             margin-top: 32px;
@@ -111,6 +123,10 @@
 
 <body>
     <h1>Modern Assyrian Font Collection</h1>
+
+    <div class="site-tagline">
+        <small>An Initiative by <a href="https://sparksoftsystems.com/" target="_blank" rel="noopener noreferrer">Sparksoft Systems</a></small>
+    </div>
 
     <div class="intro">
         <p><strong>Ramsina</strong> is a revival of early 20th‑century East Syriac metal type. The original design, created by Esho Marcus and known as East Syriac Marcus, updated with modern OpenType features by Sargon Hasso and developed in collaboration with the SIL Writing Systems Technology group.</p>
@@ -157,7 +173,7 @@
     </div>
 
     <footer class="site-footer">
-        <small>&copy; <span id="current-year"></span> Sparksoft Systems</small>
+        <small>&copy; <span id="current-year"></span> MIMALT: Makaru Institute for Modern Assyrian Language Technologies. An Initiative by Sparksoft Systems</small>
     </footer>
 
     <script>
