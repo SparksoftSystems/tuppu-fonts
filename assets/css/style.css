@@ -28,8 +28,8 @@ body {
 /* Webfont declarations (paths are relative to this CSS file) */
 @font-face {
     font-family: 'Idiqlat ExtraLight';
-    src: url('../../fonts/Idiqlat Font/web/Idiqlat-ExtraLight.woff2') format('woff2'),
-         url('../../fonts/Idiqlat Font/web/Idiqlat-ExtraLight.woff') format('woff');
+    src: url('../../fonts/Idiqlat-Font/web/Idiqlat-ExtraLight.woff2') format('woff2'),
+         url('../../fonts/Idiqlat-Font/web/Idiqlat-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -37,8 +37,8 @@ body {
 
 @font-face {
     font-family: 'Idiqlat Light';
-    src: url('../../fonts/Idiqlat Font/web/Idiqlat-Light.woff2') format('woff2'),
-         url('../../fonts/Idiqlat Font/web/Idiqlat-Light.woff') format('woff');
+    src: url('../../fonts/Idiqlat-Font/web/Idiqlat-Light.woff2') format('woff2'),
+         url('../../fonts/Idiqlat-Font/web/Idiqlat-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -46,8 +46,8 @@ body {
 
 @font-face {
     font-family: 'Idiqlat Regular';
-    src: url('../../fonts/Idiqlat Font/web/Idiqlat-Regular.woff2') format('woff2'),
-         url('../../fonts/Idiqlat Font/web/Idiqlat-Regular.woff') format('woff');
+    src: url('../../fonts/Idiqlat-Font/web/Idiqlat-Regular.woff2') format('woff2'),
+         url('../../fonts/Idiqlat-Font/web/Idiqlat-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -55,8 +55,8 @@ body {
 
 @font-face {
     font-family: 'Ramsina Regular';
-    src: url('../../fonts/Ramsina Font/web/Ramsina-Regular.woff2') format('woff2'),
-         url('../../fonts/Ramsina Font/web/Ramsina-Regular.woff') format('woff');
+    src: url('../../fonts/Ramsina-Font/web/Ramsina-Regular.woff2') format('woff2'),
+         url('../../fonts/Ramsina-Font/web/Ramsina-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
