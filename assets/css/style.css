@@ -113,15 +113,32 @@ body {
     font-size: 0.9rem;
 }
 
+.meta {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+.meta a { color: #0969da; text-decoration: none; }
+.meta a:hover { text-decoration: underline; }
+
 /* Site tagline (under H1) */
 .site-tagline {
     text-align: right;
     font-size: 0.9rem;
     color: #6b7280; /* muted text */
-    margin-top: 6px;
-    margin-bottom: 12px;
-    white-space: normal;
 }
+
+/* Family-level file block (shared across multiple weights)
+   Use this when a set of files applies to more than one font in a family */
+.family-meta {
+    background: #f8fafc;
+    border: 1px solid #e6eef6;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+.family-meta h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.family-meta .meta { margin: 0; color: #6b7280; }
 .site-tagline a { color: #0969da; text-decoration: none; }
 .site-tagline a:hover { text-decoration: underline; }
 
